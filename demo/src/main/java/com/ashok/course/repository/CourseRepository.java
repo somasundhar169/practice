@@ -6,6 +6,4 @@ import com.ashok.course.entity.Course;
 
 public interface CourseRepository extends JpaRepository<Course, Long> {
 
-	
-
 }
