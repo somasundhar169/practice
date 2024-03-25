@@ -1,0 +1,42 @@
+Computer = Common Operating Machine Purposely Used for Technological and Educational Research.
+
+Day - 1: ARPA(Advance Research Proj Agency)
+--------
+1.Computer Network: Computer A connected with Computer B.
+2.Internet : Collection of Computer Networks.
+3.Fact:
+   Country-Country Connection is through wired under Water.Not on Cloud or Air.
+4.
+   |Client| ---->  |Server|
+
+   1.Client and Server can be your System when Application run on LocalHost.
+
+5.Internet Society make all Rules/Protocols.
+6.Protocols/Rules - How Data Moves from Source to Destination & ViceVersa.
+    1.TCP : 100% Data Should reach Destination without Corruption or Data Loss.
+    2.UDP : Dont care about Data Corruption or Loss. Ex : Video.
+    3.Http : Web Uses Http.
+7. Packets : If You want to large file Data. It sends in the form of Chunks or Packets.
+8. IP Address : Suppose, if You type google.com, How it knows to reach out that Particular Google Server or Machine. It knows through Ip Address.
+  
+  To know IP Address : $ curl if config.me -s
+
+     |[Device 1]| ---> |[Modem/Router]| ---> |[Google Server]|
+
+   - Device 1 has Unique Private IP Address.
+   - Modem(Internet Service Provider) has Public Address.
+   
+9. Port :
+   - Ip Address helps to Identify which Device/Server to send Data.
+   - Port Number helps to identify which Application to send Data in Device/Server.
+
+   Ip Address - Represents Device/Server
+   Port Number - Represents Application.
+
+  Ports are 16-Bit.Total we have 2 power 16 = 65,000 Ports are Available.
+
+  Http = 80
+  MongoDB = 2707    => These are all Reserved Ports.
+  Port : (1024 to 49152) for Application Purpose.
+ 
+10. Internet Speed => 1 mbps = 1000000 bits/Second travel.
