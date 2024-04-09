@@ -1,0 +1,139 @@
+
+
+- Introduction to Backend Development
+- Role of a Backend Developer 
+- Introduction to Spring Boot.
+-Setting up the environment
+- Intro to Git and Command Line
+
+ 
+
+- Understanding the Spring Framework
+-Revision of Dependency Injection and
+Inversion of Control
+- Annotation-based configuration
+- Spring Boot Starter Projects
+
+ 
+
+- Introduction to RESTful APIs
+-Building a RESTful service in Spring Boot
+- Revision of HTTP methods
+-API Versioning
+-Protobuf
+
+ 
+
+- Revision of JPA, CRUD operations using Spring
+Data JPa
+-Revision of MVC (Entities, Repositories, and
+Services)
+-More details of workings of JPA and Hibernate
+-Revision of MySQL
+- Introduction to AWS RDS
+- Setting up MySQL on AWS RDS
+
+ 
+
+ 
+
+- Revision of Transactions in Spring Boot
+- Advanced querying with Spring Data JPA
+- Implementing Pagination and Sorting
+
+
+
+- Introduction to database migrations
+- How to use Flyway for database version control
+
+ 
+
+- Revision of NoSQL databases
+-Basics of DynamoDB
+- Integrating DynamoDB with Spring Boot
+
+
+
+- Introduction to Spring Security
+- Concepts of Authentication and Authorization
+- Authentication and Authorization in SpringBoot.
+
+ 
+
+
+
+-Introduction to two-factor authentication, Email verification of accounts
+
+
+
+
+-Introduction to Middleware, Implementing Middleware using Interceptors
+ and Filters in Spring Boot
+
+ 
+
+-Basics of messaging systems, Introduction to Amazon MSK, Integrating MSK with Spring Boot
+
+ 
+
+-Introduction to Postman, Writing and running tests with Postman, Mock servers and monitoring with Postman
+
+ 
+
+Introduction to Microservices, Building a microservice with Spring Boot, Introduction to Spring Cloud
+
+ 
+
+Introduction to distributed tracing, Using Spring Cloud Sleuth for tracing requests, Integrating with AWS X-Ray for visualization
+
+ 
+
+ 
+
+
+-Introduction to caching, Basics of Redis, Integrating Redis with Spring Boot using AWS
+ElastiCache
+
+ 
+
+ 
+
+-Introduction to ElasticSearch, Integrating Elastic Search with SpringBoot using 
+Amazon ElasticSearch Service
+
+ --------------------------------------------------------------------------
+
+-Junit,Mockito testing with Spring Boot Test
+
+ 
+
+-Introduction to Docker, Creating Docker images for Spring Boot applications
+
+ 
+
+- Introduction to AWS services, Deploying
+Spring Boot applications to AWS (EC2, EKS, RDS,Elastic Beanstalk)
+-Basics of secure deployment, SSL certificates,Security groups, VPC
+
+ 
+
+
+
+-Basics of Kubernetes, Deploying Spring Boot applications on Kubernetes using AWS EKS,
+Kubernetes Services and Ingress
+
+ 
+
+ 
+
+ 
+
+-Introduction to health checks, Monitoring application with AWS CloudWatch
+
+ 
+
+-Understanding application scaling, Scaling Spring Boot Applications in Kubernetes
+
+
+
+- Introduction to CI/CD, Using AWS CodePipeline for continuous integration and delivery

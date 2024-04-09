@@ -1,0 +1,19 @@
+1. OneToOne Mapping => @OneToOne
+                       @JoinColumn(name="address_Id")
+
+2.ManyToOne Mapping => @ManyToOne
+                       @JoinColumn(name="dept_Id")
+
+3.OneToMany Mapping => @OneToMany(mappedBy="stud_Id")
+                       private List<Student> students;
+ 
+                                    @ManyToMany(mappedBy="courses")
+4.ManyToMany Mapping (Course Class)=>private List<Student> students;
+
+
+                                       @ManyToMany
+                                       @JoinTable(                                        name="student_courses, 
+                                       joinColumns=@JoinColumn(name="student_Id"),
+                                       inverseJoinColumns= @JoinColumn(name="course_Id")
+                                                   )
+                   (Student Class)  =>private List<Course> courses;

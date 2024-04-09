@@ -40,3 +40,25 @@ Day - 1: ARPA(Advance Research Proj Agency)
   Port : (1024 to 49152) for Application Purpose.
  
 10. Internet Speed => 1 mbps = 1000000 bits/Second travel.
+
+11.LAN:LOCAL AREA Network : Building/Office
+   MAN:Metropolitan Area
+   WAN : Wide Area : Across Countries ... SONET,FRAME RELAY
+
+12. Modem : Convert Digital to Analog(ELECTRIC) signal.
+    Router : send data to Registered IP Address.
+
+13. ISP(internet Service Provider) : IN India, TATA is Tier 1 Provider. 
+          Next we have Airtel,Jio.
+
+14. Topology :
+  - Bus Topology : Backbone,Single Cable.
+                   Limitations: Single break of Wire.               
+  - Ring Topology : Connect on 2 Sides. Limitaions : Send Data from A to D , NEED TO GO THROUGH B AND C.
+  - STAR Topology : Limitation: if Central Hub Fails, entire Network get failed.
+  - Tree Topology : Star + Bus. Limitation: Fault Tolerance
+  - Mesh Topology : Ring Extension. connect with every System. Limitation :Expensive (wires)
+  
+15. OSI Layer(Open : Structure of Network
+    1.Application Layer.
+    2.
