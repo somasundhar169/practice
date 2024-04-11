@@ -1,0 +1,78 @@
+DB Analysis and Design:
+1.create table country(id int,name varchar(30)) @OneToMany
+2.create table state(id int,name varchar(30))   @OneToMany
+3.create table city(id int,name varchar(30))    @ManyToOne
+
+
+1.create table user(id int,name varchar(30),email varchar(30),password varchar(30),phone varchar(30) country varchar(30),state varchar(30), city varchar(30),PasswordChangeStatus boolean (True,false))
+
+
+
+Entity class:
+-----------------
+public class User{
+private string name;
+private string email;
+private string phone;
+private string country;
+private string state;
+private string city;
+}
+
+
+public class Country{
+private String name;
+}
+
+public class State{
+private String name;
+}
+
+public class City{
+private String name;
+}
+
+
+Repository class:
+------------------
+
+
+
+
+
+
+Service layer:
+-------------
+public interface User{
+
+public String register(UserDto userDto){
+//DropDown Country,State,City.
+//save to UserRepo.
+return "Randompassword"
+}
+
+
+public UserResponseDto login(String username,String password){//check username&Password}
+
+public String resetPassword(String email,oldPassword,newPassword,confirmPassword){
+//check old password.
+//check new and confirm password matching or not.
+
+}
+
+
+
+
+
+
+
+
+public interface Dashboard{
+
+public String getNewQuote(){
+
+return "";
+}
+}
+
+

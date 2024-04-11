@@ -1,0 +1,41 @@
+Java Modern Stack 
+
+1.Java8 - 2014
+2.Java11 -2018 
+3.Java17 -2021
+
+Notes:
+*New Features - Adding Security,Performance Improve.
+
+Java 8 Features:
+1.Functional Interface: Interface - 1 Absract Method,any No 0f Default Methods.
+2.Java Stream API.
+3.Functional Interface Method References: static Method,Instance Method,Constructor.
+  Class::staticMethod()
+  myObj::instanceMethod()
+  Class::new => Create an Obj.
+4.Type & Repeatable Annotation : @NotNull,@NotEmpty in Pojo Class. @Repeatable,@Retention
+5.Optional Class : handle NullPointer Exception.
+6.Data & Time API.
+
+
+Java 9 Features:
+1.Local Variable Type in Lambda Expressions.
+  Var - use it as Local Variable(parameter)  
+  SumNum sumnum=(var i,var j)->i+j;
+2.Support Http,Websocket.
+3.Can do Moonitoring,Diagnosis.
+4.Single file Source Code Launch(like Python Scripts).
+5.epsilon GC - Performance Analysis.
+
+
+Java 11 Features:
+1.To Restrict or Choose its Sub-class.
+2.sealed,permits
+3. public sealed class Vehicle permits TwoWheelers,ThreeWheelers.
+4. Can Seal Interface also.
+5.Enhanced Switch Case(Pattern Matching).
+6.Strong Encapsulation - Improve Security.
+
+
+
