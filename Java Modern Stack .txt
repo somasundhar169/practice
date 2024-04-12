@@ -3,6 +3,11 @@ Java Modern Stack
 1.Java8 - 2014
 2.Java11 -2018 
 3.Java17 -2021
+4.Java21 - 2023 Sept
+5.Java22 - 2024 March
+6.Java23 - 2024 Sept
+7.Java24 - 2025 March
+8.Java25 - 2025 Sept
 
 Notes:
 *New Features - Adding Security,Performance Improve.
@@ -19,23 +24,40 @@ Java 8 Features:
 6.Data & Time API.
 
 
-Java 9 Features:
+Java 11 Features:
 1.Local Variable Type in Lambda Expressions.
   Var - use it as Local Variable(parameter)  
   SumNum sumnum=(var i,var j)->i+j;
 2.Support Http,Websocket.
 3.Can do Moonitoring,Diagnosis.
 4.Single file Source Code Launch(like Python Scripts).
-5.epsilon GC - Performance Analysis.
+5.epsilon Garbage Collection - Performance Analysis.
 
 
-Java 11 Features:
+Java 17 Features:
 1.To Restrict or Choose its Sub-class.
 2.sealed,permits
 3. public sealed class Vehicle permits TwoWheelers,ThreeWheelers.
 4. Can Seal Interface also.
 5.Enhanced Switch Case(Pattern Matching).
 6.Strong Encapsulation - Improve Security.
+
+
+SpringFramework Modules:
+1.Spring Core.
+2.Spring AOP
+3.Spring Messaging.
+4.Spring Data.
+5.Spring Integration.
+6.Spring MVC
+7.Spring Web Flow
+8.Spring Test
+9.Spring Security
+10.Spring Batch
+11.Spring Boot
+
+
+
 
 
 
